@@ -1,0 +1,14 @@
+.sign-in {
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(36, 129, 215, 0.05), 0 2px 3px rgba(36, 129, 215, 0.04);
+  position: relative; }
+  .sign-in .api-input {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 36px; }
+  .sign-in .submit {
+    float: right;
+    margin-top: 20px; }

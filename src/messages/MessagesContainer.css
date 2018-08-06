@@ -1,0 +1,43 @@
+.messages {
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(36, 129, 215, 0.05), 0 2px 3px rgba(36, 129, 215, 0.04);
+  position: relative; }
+
+p {
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-size: 14px;
+  margin: 0 0 10px; }
+
+.table {
+  margin-bottom: 30px;
+  font-size: 14px; }
+  .table tr:last-child {
+    border-bottom: 0; }
+    .table tr:last-child > td, .table tr:last-child > th {
+      border-bottom: 0; }
+  .table > thead {
+    border-bottom: 1px dashed #d6e0f1; }
+    .table > thead > tr > th {
+      border-bottom: 0;
+      font-weight: 600;
+      vertical-align: middle; }
+  .table > tbody > tr > td, .table > tbody tr > th {
+    border-top: 0;
+    border-bottom: 2px solid #ecf2fc;
+    vertical-align: middle;
+    word-break: keep-all;
+    white-space: pre-line; }
+  .table td {
+    border-right: 2px solid #ecf2fc;
+    word-break: keep-all;
+    white-space: pre-line; }
+    .table td:last-child {
+      border-right: 0; }
+    .table td i.fa {
+      font-size: 12px; }
+    .table td .btn-sm {
+      height: auto;
+      padding: 5px 10px; }

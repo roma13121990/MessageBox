@@ -1,0 +1,48 @@
+.modal-backdrop {
+  background-color: red; }
+
+.modal {
+  display: block;
+  background: rgba(88, 105, 127, 0.5);
+  text-align: center; }
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%; }
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  width: 1140px; }
+  .modal-dialog .modal-content {
+    border-radius: 5px;
+    overflow-y: scroll;
+    box-shadow: none !important;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2); }
+
+table.horizontal th {
+  border-bottom: 2px solid #ecf2fc;
+  border-right: 2px solid #ecf2fc;
+  border-top: 0 !important;
+  font-family: 'Proxima Nova',sans-serif; }
+
+.message-stats td {
+  white-space: nowrap;
+  width: 1px;
+  padding: 3px 3px 5px 3px;
+  border: 0 !important; }
+
+.modal-dialog .modal-title {
+  font-weight: 600;
+  font-size: 16px; }
+
+.modal-dialog .modal-content .modal-header {
+  border: 0;
+  padding: 30px 30px 15px;
+  position: relative; }
+
+.message-stats tr.totals {
+  border-top: 2px solid #ecf2fc; }

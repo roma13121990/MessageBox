@@ -1,0 +1,75 @@
+.textarea {
+  border: 2px solid #ecf2fc;
+  border-radius: 4px;
+  padding: 10px 10px 20px 10px;
+  min-height: 150px;
+  position: relative;
+  transition: border-color .15s ease-in-out 0s,box-shadow .15s ease-in-out 0s; }
+
+.edit-box {
+  width: 100%;
+  border: 0;
+  height: 100%;
+  outline: 0;
+  min-height: 150px; }
+
+input {
+  position: relative;
+  vertical-align: top; }
+
+input.form-control {
+  font-size: 16px;
+  line-height: normal;
+  display: block;
+  height: 34px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: none;
+  border-radius: 2px;
+  border: 2px solid #eaf0fa;
+  padding: 0 2px 0 10px;
+  color: #4c5669;
+  filter: none; }
+
+.error .form-control, .error {
+  border-color: #ef1a55; }
+
+.textarea > .textarea-tooltip {
+  position: absolute;
+  bottom: 0;
+  right: 10px; }
+
+.btn {
+  background-color: #fff;
+  height: 40px;
+  color: #2c3645;
+  font-family: 'Proxima Nova',sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  border: 0;
+  padding-top: 8px;
+  text-decoration: none;
+  text-align: left;
+  transition: background-color .15s ease-in-out,border-color .15s ease-in-out,color .15s ease-in-out; }
+
+.btn.btn-primary {
+  background: #3f90dc;
+  color: #fff;
+  border: 0 !important;
+  font-weight: 600; }
+  .btn.btn-primary:hover {
+    background-color: #28a7db !important;
+    color: #fff; }
+
+.messages h1 {
+  margin: 0;
+  margin-bottom: 30px;
+  line-height: 30px;
+  font-size: 24px;
+  font-weight: 400; }
+
+.error-msg {
+  float: left;
+  display: block;
+  padding: 5px 5px 0;
+  color: #ef1a55; }
